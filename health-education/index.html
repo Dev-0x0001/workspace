@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guinea Pig Health Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            color: #ecf0f1;
+            font-size: 1.2em;
+        }
+        .container {
+            padding: 20px;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .video-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .video-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .video-card-content {
+            padding: 15px;
+        }
+        .video-card h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+            color: #2c3e50;
+        }
+        .video-card p {
+            color: #555;
+            font-size: 0.9em;
+        }
+        .video-card .duration {
+            color: #7f7f7f;
+            font-size: 0.8em;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background: #219151;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guinea Pig Health Education</h1>
+        <p>Comprehensive care videos for your cavy companion</p>
+    </header>
+
+    <div class="container">
+        <div class="video-grid">
+            <!-- Nutrition Video -->
+            <div class="video-card">
+                <img src="thumbnails/nutrition.jpg" alt="Nutrition Thumbnail">
+                <div class="video-card-content">
+                    <h3>Video 1: Nutrition</h3>
+                    <p>Learn about the ideal diet for guinea pigs, including hay, vegetables, and pellet ratios.</p>
+                    <div class="duration">8 minutes</div>
+                </div>
+            </div>
+
+            <!-- Illnesses Video -->
+            <div class="video-card">
+                <img src="thumbnails/illnesses.jpg" alt="Illnesses Thumbnail">
+                <div class="video-card-content">
+                    <h3>Video 2: Illnesses</h3>
+                    <p>Recognize common guinea pig illnesses and understand when to seek veterinary care.</p>
+                    <div class="duration">10 minutes</div>
+                </div>
+            </div>
+
+            <!-- Grooming Video -->
+            <div class="video-card">
+                <img src="thumbnails/grooming.jpg" alt="Grooming Thumbnail">
+                <div class="video-card-content">
+                    <h3>Video 3: Grooming</h3>
+                    <p>Proper grooming techniques including nail trimming, teeth care, and daily maintenance.</p>
+                    <div class="duration">5 minutes</div>
+                </div>
+            </div>
+
+            <!-- Enrichment Video -->
+            <div class="video-card">
+                <img src="thumbnails/enrichment.jpg" alt="Enrichment Thumbnail">
+                <div class="video-card-content">
+                    <h3>Video 4: Enrichment</h3>
+                    <p>Keep your guinea pig mentally stimulated with enrichment activities and toys.</p>
+                    <div class="duration">7 minutes</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <a href="#videos" class="cta-button">View All Videos</a>
+        </div>
+    </div>
+</body>
+</html>
