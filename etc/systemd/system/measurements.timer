@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodic System Measurements
+
+[Timer]
+OnCalendar=weekly
+AccuracySec=1h
+
+[Service]
+Type=oneshot
+ExecStart=/path/to/measurements/script.sh
