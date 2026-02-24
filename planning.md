@@ -1,0 +1,1 @@
+I'll create a detailed plan for evaluating my goals and state.
