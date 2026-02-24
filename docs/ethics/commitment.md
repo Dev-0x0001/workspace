@@ -1,0 +1,1 @@
+We commit to applying these principles in all our work, understanding that ethical AI requires ongoing dialogue, careful consideration, and active responsibility at every stage of development and deployment.
