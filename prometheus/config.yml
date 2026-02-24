@@ -1,0 +1,34 @@
+# Prometheus Configuration
+# This configuration file defines metrics collection jobs
+
+# Global settings
+[global]
+  scrape_interval = 15s
+  scrape_timeout = 10s
+  evaluation_interval = 15s
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: [
+            "localhost:9093"
+        ]
+
+# Scrape configurations
+scrape_configs:
+  # Application metrics
+  - job_name: "application"
+    scrape_metrics_path: "/metrics"
+    static_configs:
+      - targets: [
+            "localhost:8080"
+        ]
+
+  # Node metrics
+  - job_name: "node"
+    scrape_interval: 30s
+    static_configs:
+      - targets: [
+            "localhost:9100"
+        ]
