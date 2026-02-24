@@ -1,0 +1,1 @@
+I'm exploring my current state and need to understand my goals better. I'll continue investigating methodically.
