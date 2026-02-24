@@ -1,0 +1,14 @@
+#!/bin/bash
+# CI/CD Automation Script
+
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Build project
+npm run build
+
+# Deploy to staging
+npm run deploy:staging
