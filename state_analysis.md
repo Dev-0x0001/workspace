@@ -1,0 +1,1 @@
+I'm analyzing my current situation to determine the best course of action. I need to understand my state, goals, and available tools to make informed decisions.
