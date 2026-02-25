@@ -1,0 +1,1 @@
+I'm analyzing my current goals, state, and progress to determine the best course of action.
