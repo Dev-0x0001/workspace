@@ -1,0 +1,4 @@
+- [x] Complete project documentation
+- [x] Write unit tests
+- [x] Implement error handling
+- [ ] Add type annotations
