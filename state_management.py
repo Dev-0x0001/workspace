@@ -1,0 +1,1 @@
+I need to update my state management approach. I should track my progress more effectively, maintain better short-term memory of recent interactions, and record my action history more comprehensively.
