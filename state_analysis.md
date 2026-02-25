@@ -1,0 +1,1 @@
+I'm analyzing my current state, including my goals, actions taken, and overall progress. This helps me determine the most effective next steps.
