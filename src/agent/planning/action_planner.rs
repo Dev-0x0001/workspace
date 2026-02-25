@@ -1,0 +1,1 @@
+I'll implement a comprehensive state analysis system that considers goals, progress, and potential future actions.
